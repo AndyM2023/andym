@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    list-style-type: none;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: blue;
+}
+
+.ingredientes {
+    list-style-position: inside;
+}
+
+.caja {
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #03ffff;
+    margin: 20px 0px 60px 0px;
+    padding: 20px 20px 20px 20px 20px;
+
+    background-image: url(./../imagenes/html.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    border-radius: 10px;
+}
+.caja h1{
+    color:rgb(23, 135, 226);
+    text-align: center;
+}
+
+.caja p {
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    color:rgb(0, 174, 255)
+}
+
+.css{
+    width: 100%;
+    height: 100vh;
+
+    background-color: #8e03ff;
+    margin: 20px 0px 60px 0px;
+    padding: 20px 20px 20px 20px 20px;
+
+    background-image: url(./../imagenes/css.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    border-radius: 30px;
+
+}
+
+.css h1{
+    text-align: center;
+    color:red;
+}
+
+.css p{
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    color:rgb(255, 217, 0)
+}
+
+.encabezado{
+    text-align: center;
+}
+
+

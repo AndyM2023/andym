@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+header {
+    background-color: #dd2b1e;
+    display: flex;
+    gap: 30px;
+    grid-gap: 25px;
+}
+
+.logotia {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    grid-gap: 10px;
+}
+
+.menu__item a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline double;
+}
+
+.menu__item.active a {
+    text-decoration: underline double;
+}
+
+.imagenPrincipal {
+    height: 80vh;
+    background-image: url("./../imagenes/fondodetia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 150px;
+}
+
+.imagenPrincipal h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.450);
+    padding-inline: 20px;
+}
+
+.imagenPrincipal p {
+    color: white;
+    text-align: center;
+}
+
+.tarjetas {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+    color:aliceblue
+
+}
+.tarjetas h4{
+color:yellow
+}
+
+.tarjetita {
+    background-color: #ff1a0a;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.info {
+    padding: 0 30px 30px 30px;
+}
+
+.tarjeta__img {
+    max-width: 100%;
+}
+
+.pie {
+    background-color: #f72409;
+    color: white;
+    padding-block: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetitados {
+    flex: 1.5;
+}
+
+.quienessomos h1{
+    background-color:black;
+    color:rgb(252, 252, 252);
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.quienessomos p{
+    text-align: justify;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    line-height: 2.0;
+}
+.quienessomos span {
+    color:red;
+}
+

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor2 {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:  
+    "logo valorant tia"
+    "agradecimiento valorant tia";
+}
+
+.logo {
+    grid-area: logo;
+    background-color: #000000;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.valorant {
+    grid-area: valorant;
+    background-color: #c95959;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.valorant img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.tia {
+    grid-area: tia;
+    background-color: #2e0806;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tia img{
+    max-width: 100%;
+    height: 100%;
+    
+}
+
+.agradecimiento {
+    grid-area: agradecimiento;
+    background-color: #000000;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-10deg);
+    margin-top: 50px;
+}
+
+.contenedor2 > div {
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width:480px){
+    .contenedor2 {
+    display: flex;
+    flex-direction: column;
+    }
+.logo{
+    flex:2;
+}
+
+.contenedor2{
+    flex:1;
+}
+
+}
+
+@media screen and (max-width:768px){
+   .contenedor2{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:  
+        "logo logo"
+        "valorant tia"
+        "agradecimiento agradecimiento" ;
+   }
+}

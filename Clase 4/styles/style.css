@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Sigmar&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: #f50000;
+    padding-block: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.menu__item {
+    display: inline-block;
+    margin-inline: 10px;
+    margin-left: 10px;
+    
+}
+
+.menu__item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu__item.active a,
+.menu__item a:hover {
+    text-decoration: underline double;
+}
+
+main {
+    padding: 50px;
+}
+
+/* CARTITAS */
+
+.cartita {
+    width: 30%;
+    background-color: #888282;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 1%;
+    margin-block: 30px;
+    overflow: auto;
+    position: relative;
+    border: 4px double #000000;
+}
+
+.cartita__imagen {
+    width: 100%;
+}
+
+.cartita__titulo {
+    font-size: 18px;
+}
+
+.cartita__parrafo {
+    font-size: 14px;
+}
+
+.cartita__boton {   
+    background-color: #2114ca;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cartita__imagen,
+.cartita__titulo,
+.cartita__parrafo {
+    margin-bottom: 15px;
+}
+
+.cartita__valorant {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* */
+
+.valorant {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+}
+.historia{
+    background-image: url(./../imagenes/historiafondo.png);
+    background-size: cover;
+}
+.historia h1{
+    background-color: #460303;
+    text-align: center;
+    font-family: 'Sigmar', cursive;
+    color:#ffffff
+    
+    
+}
+
+.historia p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2.0;
+    font-family: 'Sigmar', cursive;
+    color:rgb(255, 255, 255)
+}
